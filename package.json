@@ -1,6 +1,6 @@
 {
   "name": "@microbusiness/react-immutable-proptypes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Micro Business React Immutable PropTypes",
   "main": "./dist/index.js",
   "scripts": {
@@ -15,29 +15,31 @@
     "precommit": "lint-staged"
   },
   "author": "Micro Business ltd<micro.business.ltd@gmail.com>",
-  "homepage": "https://bitbucket.org/microbusiness/micro-business-react-immutable-proptypes#readme",
-  "dependencies": {
-    "immutable": "^4.0.0-rc.9",
-    "invariant": "^2.2.2"
+  "homepage": "https://bitbucket.org/microbusinessltd/micro-business-react-immutable-proptypes#readme",
+  "peerDependencies": {
+    "immutable": "^4.x",
+    "invariant": "^2.x"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.1",
-    "babel-jest": "^22.1.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^23.0.0-alpha.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-flow": "^6.23.0",
     "babel-preset-stage-0": "^6.24.1",
-    "eslint": "^4.17.0",
+    "eslint": "^4.18.2",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.7.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.15.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "^7.6.1",
-    "flow-bin": "^0.65.0",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.68.0",
     "husky": "^0.14.3",
-    "jest": "^22.1.4",
-    "lint-staged": "^6.1.0",
-    "prettier": "^1.10.2"
+    "immutable": "^4.0.0-rc.9",
+    "invariant": "^2.2.4",
+    "jest": "^23.0.0-alpha.0",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1"
   },
   "jest": {
     "rootDir": "./src"
@@ -45,7 +47,7 @@
   "pre-commit": "lint:staged",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org:microbusiness/micro-business-react-immutable-proptypes.git"
+    "url": "git+ssh://git@bitbucket.org:microbusinessltd/micro-business-react-immutable-proptypes.git"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
